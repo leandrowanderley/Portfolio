@@ -1,0 +1,96 @@
+{
+    "en": {
+        "navbar": {
+      "about": "About",
+      "experience": "Experience",
+      "projects": "Projects",
+      "contact": "Contact"
+        },
+        "profile": {
+        "hello": "Hello, I'm",
+        "job": "Software Developer",
+        "downloadCV": "Download CV",
+        "contactInfo": "Contact Info",
+        "alt-socials": {
+            "alt-linkedin": "My LinkedIn profile",
+            "alt-github": "My Github profile"
+        }
+        },
+        "about": {
+        "getToKnow": "Get To Know More",
+        "aboutMe": "About Me",
+        "experienceTitle": "Experience",
+        "educationTitle": "Education",
+        "educationDetails": "Current on 5th semester\nComputer Science at UFAL",
+        "experienceDetails": "1+ years\nSoftware Development on personal projects",
+        "description": "Hi! I'm Leandro Wanderley, a Brazilian Computer Science student at\n[UFAL](https://ufal.br/).\nPassionate about technology, I aim to apply my knowledge to real-world projects.\nSkilled in Java and Python, with advanced English proficiency,\nI’m currently learning Swift and SwiftUI to develop impactful solutions and grow professionally in software development."
+        },
+        "experience": {
+        "explore": "Explore My",
+        "languages": "Languages",
+        "helpings": "Helpings"
+        },
+        "projects": {
+        "recent": "Browse My Recent",
+        "sistemaConsultas": "Appointment System",
+        "geminiBot": "Gemini Discord Bot",
+        "csvAnalyzer": "CSV Data Analyzer",
+        "github": "Github",
+        "live": "Live"
+        },
+        "contact": {
+        "getInTouch": "Get in Touch",
+        "contactMe": "Contact Me"
+        },
+        "footer": {
+        "copyright": "Copyright © 2025 Leandro Wanderley. All Rights Reserved."
+        }
+    },
+    "pt": {
+    "navbar": {
+      "about": "Sobre",
+      "experience": "Experiência",
+      "projects": "Projetos",
+      "contact": "Contato"
+    },
+    "profile": {
+      "hello": "Olá, eu sou",
+      "job": "Desenvolvedor de Software",
+      "downloadCV": "Baixar CV",
+      "contactInfo": "Informações de Contato",
+      "alt-socials": {
+        "alt-linkedin": "Meu perfil no LinkedIn",
+        "alt-github": "Meu perfil no Github"
+      }
+    },
+    "about": {
+      "getToKnow": "Saiba Mais",
+      "aboutMe": "Sobre Mim",
+      "experienceTitle": "Experiência",
+      "educationTitle": "Educação",
+      "educationDetails": "Cursando 5º semestre\nCiência da Computação na UFAL",
+      "experienceDetails": "1+ anos\nDesenvolvimento de Software em projetos pessoais",
+      "description": "Oi! Sou Leandro Wanderley, estudante de Ciência da Computação brasileiro da\n[UFAL](https://ufal.br/).\nApaixonado por tecnologia, busco aplicar meus conhecimentos em projetos reais.\nTenho habilidades em Java e Python, com proficiência avançada em inglês,\nAtualmente, estou aprendendo Swift e SwiftUI para desenvolver soluções impactantes e crescer profissionalmente no desenvolvimento de software."
+    },
+    "experience": {
+      "explore": "Explore Minha",
+      "languages": "Linguagens",
+      "helpings": "Contribuições"
+    },
+    "projects": {
+      "recent": "Veja Meus Recentes",
+      "sistemaConsultas": "Sistema de Agendamentos",
+      "geminiBot": "Gemini Discord Bot",
+      "csvAnalyzer": "Analisador de Dados CSV",
+      "github": "Github",
+      "live": "Ao Vivo"
+    },
+    "contact": {
+      "getInTouch": "Entre em Contato",
+      "contactMe": "Fale Comigo"
+    },
+    "footer": {
+      "copyright": "Copyright © 2025 Leandro Wanderley. Todos os direitos reservados."
+    }
+  }
+}
