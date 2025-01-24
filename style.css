@@ -454,3 +454,20 @@ footer p {
   padding: 5px 10px;
   cursor: pointer;
 }
+
+/* BACKGROUND COLOR TESTING */
+
+/* body {
+  background-color: #FFFFFF;
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #4c0dc8 50%, #00fca8 100%);
+} */
+
+/* #part-1 {
+  background-color: #4c0dc8;
+  background-image: linear-gradient(160deg, #4c0dc8 0%, #00fca8 90%);
+}
+
+#part-2 {
+  background-color: #00fca8;
+  background-image: linear-gradient(-160deg, #00fca8 90%, #4c0dc8 90%);
+} */
