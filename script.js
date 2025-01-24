@@ -5,7 +5,6 @@ function toggleMenu() {
     icon.classList.toggle('open');
 }
 
-
 // function getBrowserLanguage() {
 //   const language = navigator.language || navigator.userLanguage; // Get the user's preferred language
 //   const supportedLanguages = ['en', 'pt']; // List of supported languages
@@ -21,7 +20,7 @@ function toggleMenu() {
 //   fetch('./languages.json')
 //     .then((response) => response.json())
 //     .then((data) => {
-//       const langData = data[language];
+//       const langData = data[language]; // Ensure langData is properly defined based on the selected language
 
 //       // Navbar
 //       document.querySelector('.nav-links a[href="#about"]').textContent = langData.navbar.about;
@@ -38,24 +37,42 @@ function toggleMenu() {
 //       document.querySelector('#about .section__text__p1').textContent = langData.about.getToKnow;
 //       document.querySelector('#about .title').textContent = langData.about.aboutMe;
 //       document.querySelector('#about .text-container p').textContent = langData.about.description;
+//       document.querySelector('#about .about-containers .details-container:first-of-type h3').textContent = langData.about.experienceTitle;
+//       document.querySelector('#about .about-containers .details-container:last-of-type h3').textContent = langData.about.educationTitle;
+//       document.querySelector('#about .about-containers .details-container:first-of-type p').textContent = langData.about.experienceDetails;
+//       document.querySelector('#about .about-containers .details-container:last-of-type p').textContent = langData.about.educationDetails;
 
 //       // Experience
 //       document.querySelector('#experience .section__text__p1').textContent = langData.experience.explore;
-//       document.querySelector('#experience .title').textContent = langData.experience.experienceTitle;
+//       document.querySelector('#experience .title').textContent = langData.experience.experience;
 //       document.querySelector('#experience .experience-sub-title:first-of-type').textContent = langData.experience.languages;
 //       document.querySelector('#experience .experience-sub-title:last-of-type').textContent = langData.experience.helpings;
 
 //       // Projects
 //       document.querySelector('#projects .section__text__p1').textContent = langData.projects.recent;
-//       document.querySelector('#projects .title').textContent = langData.projects.sistemaConsultas;
+//       document.querySelector('#projects .title').textContent = langData.projects.projects;
+
+//       // Project Titles and Links
+//       const projectElements = document.querySelectorAll('.project-title');
+//       projectElements[0].textContent = langData.projects.sistemaConsultas;
+//       projectElements[1].textContent = langData.projects.geminiBot;
+//       projectElements[2].textContent = langData.projects.csvAnalyzer;
 
 //       // Contact
 //       document.querySelector('#contact .section__text__p1').textContent = langData.contact.getInTouch;
 //       document.querySelector('#contact .title').textContent = langData.contact.contactMe;
 
 //       // Footer
-//       document.querySelector('footer').textContent = langData.footer.copyright;
+//       document.querySelector('footer p').textContent = langData.footer.copyright;
 
+//       // Social links alt texts
+//       document.querySelectorAll('.icon[alt="My LinkedIn profile"]').forEach((el) => {
+//         el.setAttribute('alt', langData.profile['alt-socials']['alt-linkedin']);
+//       });
+
+//       document.querySelectorAll('.icon[alt="My Github profile"]').forEach((el) => {
+//         el.setAttribute('alt', langData.profile['alt-socials']['alt-github']);
+//       });
 //     })
 //     .catch((error) => console.error('Error loading languages:', error));
 // }
