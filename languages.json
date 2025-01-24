@@ -29,7 +29,7 @@
           "explore": "Explore My",
           "experience": "Knowledge",
           "languages": "Languages",
-          "helpings": "Others"
+          "helpings": "Technologies"
         },
         "projects": {
           "recent": "Browse My Recent",
@@ -78,7 +78,7 @@
       "explore": "Veja Meu",
       "experience": "Conhecimento",
       "languages": "Linguagens",
-      "helpings": "Outro"
+      "helpings": "Tecnologias"
     },
     "projects": {
       "recent": "Veja Meus Ultimos",
