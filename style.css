@@ -124,10 +124,12 @@ a:hover {
 .logo img {
   height: 50px; /* Adjust size as needed */
   width: auto;
+  padding: 5px; /* Optional: Adds clickable padding around the logo */
 }
 
 .logo:hover {
   cursor: pointer;
+  opacity: 0.8; /* Optional: Visual feedback on hover */
 }
 
 .logo {
