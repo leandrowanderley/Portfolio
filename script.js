@@ -1,4 +1,4 @@
-let currentLanguage = 'en';
+let currentLanguage = 'pt';
 let translations = {};
 
 // Load translations and initialize
