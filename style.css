@@ -2,6 +2,69 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* For tablets and smaller */
+@media screen and (max-width: 1200px) {
+  section {
+    margin: 0 5rem;
+  }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+  /* Hide desktop nav and show hamburger nav */
+  #desktop-nav {
+    display: none;
+  }
+  
+  #hamburger-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 10vh;
+  }
+  
+  /* Adjust logo size for mobile */
+  .logo img {
+    height: 40px;
+  }
+  
+  /* Adjust section margins */
+  section {
+    margin: 0 2rem;
+  }
+  
+  /* Profile section adjustments */
+  #profile {
+    flex-direction: column;
+    gap: 2rem;
+    height: auto;
+    padding-bottom: 4rem;
+  }
+  
+  .section__pic-container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+}
+
+/* For very small mobile devices */
+@media screen and (max-width: 480px) {
+  .logo img {
+    height: 30px;
+  }
+  
+  section {
+    margin: 0 1rem;
+  }
+  
+  .section__pic-container {
+    width: 250px;
+    height: 250px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -64,7 +127,16 @@ a:hover {
 }
 
 .logo:hover {
-  cursor: default;
+  cursor: pointer;
+}
+
+.logo {
+  max-width: 50px; /* or whatever maximum size you want */
+  display: flex;
+}
+.logo img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* HAMBURGER MENU */
