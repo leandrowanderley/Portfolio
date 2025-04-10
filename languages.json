@@ -35,7 +35,7 @@
           "recent": "Browse My Recent",
           "projects": "Projects",
           "sistemaConsultas": "Appointment System",
-          "geminiBot": "FalAI - Discord Bot",
+          "falaAI": "FalAI - Discord Bot",
           "csvAnalyzer": "CSV Data Analyzer",
           "github": "GitHub",
           "live": "Live"
@@ -84,7 +84,7 @@
       "recent": "Veja Meus Ultimos",
       "projects": "Projetos",
       "sistemaConsultas": "Sistema de Consultas",
-      "geminiBot": "FalAI - Bot de Discord",
+      "falaAI": "FalAI - Bot de Discord",
       "csvAnalyzer": "Analisador de Dados CSV",
       "github": "GitHub",
       "live": "Online"
