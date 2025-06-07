@@ -34,6 +34,20 @@ function applyLanguage(lang) {
     keys.forEach(key => value = value?.[key]);
     if (value) img.setAttribute('alt', value);
   });
+
+  // Remove class 'active' of all languages buttons
+  document.querySelectorAll('.language-switcher button').forEach(button => {
+      button.classList.remove('active');
+  });
+
+  // Add a class 'active' only for language button selected
+  if (lang === 'en') {
+      document.getElementById('lang-en').classList.add('active');
+      document.getElementById('lang-en-mobile').classList.add('active');
+  } else if (lang === 'pt') {
+      document.getElementById('lang-pt').classList.add('active');
+      document.getElementById('lang-pt-mobile').classList.add('active');
+  }
 }
 
 // Toggle language
