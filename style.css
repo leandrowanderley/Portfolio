@@ -531,17 +531,18 @@ footer p {
 
 /* BACKGROUND COLOR TESTING */
 
-/* body {
-  background-color: #FFFFFF;
-  background-image: linear-gradient(180deg, #FFFFFF 0%, #4c0dc8 50%, #00fca8 100%);
-} */
-
-/* #part-1 {
-  background-color: #4c0dc8;
-  background-image: linear-gradient(160deg, #4c0dc8 0%, #00fca8 90%);
+p[data-lang-key="about.description"] a,
+p[data-lang-key="about.description"] a:hover {
+  /* Define um sublinhado fixo */
+  text-decoration: underline;
+  /* Define um espaçamento pequeno e fixo para o sublinhado.
+     Este é o ponto principal da correção! */
+  text-underline-offset: 3px;
+  /* Garante que a cor do sublinhado seja mais forte no hover */
+  text-decoration-color: rgb(85, 85, 85);
 }
 
-#part-2 {
-  background-color: #00fca8;
-  background-image: linear-gradient(-160deg, #00fca8 90%, #4c0dc8 90%);
-} */
+/* Opcional: Para manter a mudança de cor do texto no hover */
+p[data-lang-key="about.description"] a:hover {
+  color: grey;
+}

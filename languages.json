@@ -21,9 +21,9 @@
           "aboutMe": "About Me",
           "experienceTitle": "Experience",
           "educationTitle": "Education",
-          "educationDetails": "Current on 5th semester\nComputer Science at UFAL",
-          "experienceDetails": "1+ years\nSoftware Development on personal projects",
-          "description": "Hi! I'm Leandro Wanderley, a Brazilian Computer Science student at\n[UFAL](https://ufal.br/).\nPassionate about technology, I aim to apply my knowledge to real-world projects.\nSkilled in Java and Python, with advanced English proficiency,\nI’m currently learning Swift and SwiftUI to develop impactful solutions and grow professionally in software development."
+          "educationDetails": "Current on 5th semester<br>Computer Science at UFAL",
+          "experienceDetails": "2+ years<br>Software Development on personal projects",
+          "description": "Hi! I'm Leandro Wanderley, a Computer Science student at <a href='https://ufal.br/'>UFAL</a>.<br>Passionate about technology, I aim to apply my knowledge to real-world projects.<br>Skilled in Java, Python, and many other technologies, with advanced English proficiency and basic Spanish knowledge."
         },
         "experience": {
           "explore": "Explore My",
@@ -70,9 +70,9 @@
       "aboutMe": "Sobre Mim",
       "experienceTitle": "Experiência",
       "educationTitle": "Educação",
-      "educationDetails": "Cursando 5º semestre\nCiência da Computação na UFAL",
-      "experienceDetails": "1+ anos\nDesenvolvimento de Software em projetos pessoais",
-      "description": "Oi! Sou Leandro Wanderley, estudante de Ciência da Computação brasileiro da\n[UFAL](https://ufal.br/).\nApaixonado por tecnologia, busco aplicar meus conhecimentos em projetos reais.\nTenho habilidades em Java e Python, com proficiência avançada em inglês,\nAtualmente, estou aprendendo Swift e SwiftUI para desenvolver soluções impactantes e crescer profissionalmente no desenvolvimento de software."
+      "educationDetails": "Cursando 5º semestre<br>Ciência da Computação na UFAL",
+      "experienceDetails": "2+ anos<br>Desenvolvimento de Software em projetos pessoais",
+      "description": "Oi! Sou Leandro Wanderley, estudante de Ciência da Computação da <a href='https://ufal.br/'>UFAL</a>.<br>Apaixonado por tecnologia, busco aplicar meus conhecimentos em projetos reais.<br>Tenho habilidades em Java, Python e diversas outras tecnologias, com proficiência avançada em inglês e conhecimentos básicos de espanhol."
     },
     "experience": {
       "explore": "Veja Meu",

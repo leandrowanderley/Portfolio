@@ -24,7 +24,7 @@ function applyLanguage(lang) {
     const keys = el.getAttribute('data-lang-key').split('.');
     let value = langData;
     keys.forEach(key => value = value?.[key]);
-    if (value) el.textContent = value;
+    if (value) el.innerHTML = value;
   });
 
   // Update alt texts for images
